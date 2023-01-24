@@ -1,0 +1,18 @@
+﻿{"cars": [
+    {
+        "name":"Lexus IS 200",
+        "price":"6000",
+        "URL":"pics/LexusIS200.jpg"},
+    {
+        "name":"Mazda RX-7",
+        "price":"18000",
+        "URL":"pics/MazdaRX7.jpg"},
+    {
+        "name":"Nissan Silvia S14",
+        "price":"17000",
+        "URL":"pics/NissanSilvia.jpg"},
+    {
+        "name":"Porsche 911 Carrera S",
+        "price":"6000",
+        "URL":"pics/Porsche911.jpg"}       
+]}

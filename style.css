@@ -1,0 +1,55 @@
+﻿body {
+    background-color: #0d0d19
+    ;
+
+}
+
+@font-face {
+    font-family: CaviarDreams;
+    src: url(CaviarDreams.ttf);
+}
+
+.wrapper {
+    width: 1000px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    flex: 0;
+}
+
+.card {
+    width: 220px;
+    height: 250px;
+    background-color: #335176;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.car-image {
+    margin-top: 10px;
+    width: 200px;
+    height: 120px;
+    background-size: cover;
+    border-radius: 5px;
+    transition: height 0.5s ease-out 100ms
+}
+
+.car-image:hover {
+    margin-top: 0px;
+    width: 220px;
+    height: 150px;
+    background-size: cover;
+}
+
+.name {
+    font-family: CaviarDreams;
+}
+
+.price {
+    font-family: CaviarDreams;
+}
